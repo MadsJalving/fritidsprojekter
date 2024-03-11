@@ -1,0 +1,5 @@
+norm: 16.1973 ms
+fast: 0.0009 ms
+
+norm result: 0.56419
+fast result: 0.563957
