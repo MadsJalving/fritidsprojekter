@@ -40,8 +40,8 @@ int main(){
     duration<double, std::milli> ms_fast = t12 - t11;
     duration<double, std::milli> ms_slow = t22 - t21;
 
-    std::cout << "norm: " << ms_slow.count() << " ms\n";
-    std::cout << "fast: " << ms_fast.count() << " ms\n\n";
+    std::cout << "speed of norm: " << ms_slow.count() << " ms\n";
+    std::cout << "speed of fast: " << ms_fast.count() << " ms\n\n";
 
     std::cout << "norm result: " << foo << "\n";
     std::cout << "fast result: " << fast_foo << "\n";
